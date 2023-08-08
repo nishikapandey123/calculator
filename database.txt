@@ -1,0 +1,11 @@
+#for createing database.
+
+Create database calculator;
+
+#createing table.
+
+CREATE TABLE calculation (
+       id INT AUTO_INCREMENT PRIMARY KEY,
+       expression VARCHAR(100) NOT NULL,
+       result FLOAT NOT NULL
+   );
